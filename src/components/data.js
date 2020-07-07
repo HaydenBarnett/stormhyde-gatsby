@@ -41,13 +41,12 @@ const data = {
         infinite: true,
     },
     settingsLower: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
+        arrows: false,
         dots: true,
-        className: "center",
-        centerMode: true,
         focusOnSelect: true,
-        infinite: false,
+        infinite: true,
     }
 }
 

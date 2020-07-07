@@ -44,6 +44,8 @@
     left: 0;
     top: 0;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 
     &:before,
     &:after {
@@ -71,6 +73,11 @@
     }
     &.slick-loading img {
         display: none;
+    }
+    &.slick-current {
+        .slide {
+            opacity: 1;
+        }
     }
 
     display: none;
