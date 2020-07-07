@@ -9,11 +9,11 @@ const Footer = () => (
         <div className="col-sm-9">
           <h2>Products</h2>
           <ul>
-            <li><Link href="/batch-script-generator/">Batch Script Generator</Link></li>
-            <li><Link href="/map-converter/">Map Converter</Link></li>
-            <li><Link href="/image-renamer/">Image Renamer</Link></li>
-            <li><Link href="/scrambler/">Scrambler</Link></li>
-            <li><Link href="/demon/">Demon</Link></li>
+            <li><Link to="/batch-script-generator/">Batch Script Generator</Link></li>
+            <li><Link to="/map-converter/">Map Converter</Link></li>
+            <li><Link to="/image-renamer/">Image Renamer</Link></li>
+            <li><Link to="/scrambler/">Scrambler</Link></li>
+            <li><Link to="/demon/">Demon</Link></li>
           </ul>
         </div>
         <div className="col-sm-3">

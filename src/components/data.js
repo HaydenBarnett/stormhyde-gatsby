@@ -4,35 +4,50 @@ const data = {
         title: 'Batch Script Generator',
         description: 'Provides a user friendly interface to create batch script files for rendering multiple Autodesk Maya scenes.',
         category: 'Legacy Application',
-        image: ''
     },
     mapConverter: {
         url: '/map-converter/',
         title: 'Map Converter',
         description: 'Provides a user friendly interface to create batch script files for rendering multiple Autodesk Maya scenes.',
         category: 'Legacy Application',
-        image: ''
+        thumbnail: '../images/products/map-converter-preview.png',
     },
     imageRenamer: {
         url: '/image-renamer/',
         title: 'Image Renamer',
         description: 'Provides a user friendly interface to create batch script files for rendering multiple Autodesk Maya scenes.',
         category: 'Legacy Application',
-        image: ''
+        thumbnail: '../images/products/image-renamer-preview.png',
     },
     scrambler: {
         url: '/scrambler/',
         title: 'Scrambler',
         description: 'Provides a user friendly interface to create batch script files for rendering multiple Autodesk Maya scenes.',
         category: 'Legacy Application',
-        image: ''
+        thumbnail: '../images/products/scrambler-preview.png',
     },
     demon: {
         url: '/demon/',
         title: 'Demon',
         description: 'Provides a user friendly interface to create batch script files for rendering multiple Autodesk Maya scenes.',
-        category: 'Legacy Application',
-        image: ''
+        category: '3D Model',
+        thumbnail: '../images/products/demon-preview.png',
+    },
+    settingsUpper: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        infinite: true,
+    },
+    settingsLower: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        className: "center",
+        centerMode: true,
+        focusOnSelect: true,
+        infinite: false,
     }
 }
 
